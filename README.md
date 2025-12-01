@@ -6,9 +6,9 @@ The provided code implements a basic optical flow algorithm using image gradient
 
 ### Image Preprocessing:
 
-Two images (sphere1.jpg and sphere2.jpg) are loaded and resized for easier comparison.
+  Two images (sphere1.jpg and sphere2.jpg) are loaded and resized for easier comparison.
 
-Both images are converted to grayscale to simplify processing.
+  Both images are converted to grayscale to simplify processing.
 
 ### Image Alignment:
 
