@@ -24,11 +24,11 @@ The provided code implements a basic optical flow algorithm using image gradient
 
 ### Motion Masking
 
-A threshold is applied to detect significant pixel differences, identifying areas of motion between the images. This is done using a squared pixel difference threshold.
+- A threshold is applied to detect significant pixel differences, identifying areas of motion between the images. This is done using a squared pixel difference threshold.
 
 ### Optical Flow Calculation
 
-The algorithm calculates pixel-wise motion using the optical flow equation, utilizing the gradients (Ix, Iy, It) to solve for the flow in the x and y directions (u and v) using a least-squares solution.
+- The algorithm calculates pixel-wise motion using the optical flow equation, utilizing the gradients (Ix, Iy, It) to solve for the flow in the x and y directions (u and v) using a least-squares solution.
 
 - A Harris-like matrix is computed using a local window to estimate the flow in each pixel.
 
