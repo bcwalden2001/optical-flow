@@ -1,6 +1,6 @@
 ## Summary
 
-The provided code implements a basic optical flow algorithm using image gradients and the Horn-Schunck method to calculate pixel-level motion between two images (sphere1.jpg and sphere2.jpg). The flow computation involves processing two grayscale images, detecting motion between them by computing the temporal and spatial gradients, and then estimating the pixel movement in the x and y directions. The results are visualized through color-coded flow magnitude and direction, with the flow represented by varying colors to highlight motion intensity and direction.
+The provided code implements a basic optical flow algorithm using image gradients and the Horn-Schunck method to calculate pixel-level motion between two consecutive frames. The flow computation involves processing two grayscale images, detecting motion between them by computing the temporal and spatial gradients, and then estimating the pixel movement in the x and y directions. The results are visualized through color-coded flow magnitude and direction, with the flow represented by varying colors to highlight motion intensity and direction.
 
 ## Methodology
 
