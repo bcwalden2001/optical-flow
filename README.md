@@ -47,3 +47,7 @@ The provided code implements a basic optical flow algorithm using image gradient
 ## Conclusion
 
 The script successfully computes and visualizes optical flow between two images by estimating the movement of pixels from one frame to the next. It uses spatial and temporal gradients to detect significant changes in pixel intensity, calculates the optical flow using the Horn-Schunck method, and represents the motion using color-coded flow visualizations. The approach is sensitive to motion thresholding, and can be adapted to different scenarios by adjusting the threshold value for detecting motion. This basic optical flow technique could be expanded further for real-time motion tracking or object detection in video sequences.
+
+## Testing
+
+Multiple image pairs have been provided and can be read in by the script. Several windows will display showing intermediate stages along with the final colored image that visualizes optical flow.
